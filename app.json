@@ -15,7 +15,7 @@
         },
         "ANTILINK_WARN": {
             "description": "Groups for antilink (JIDS)",
-            "required": false,
+            "required": true,
             "value":"jid,jid"
         },
         "READ_MESSAGES": {
@@ -27,55 +27,55 @@
             "description": "Bot will read all commands (blue tick). Can be also false",
             "required": true,
             "value":"true"
-        },
-       "HEROKU_API_KEY": {
+        
+       "HEROKU_API_KEY": {08f91fd7-1e14-446a-93b6-b66abc0de7c0},
             "description": "For updating bot and setting vars remotely",
             "required": true,
             "value":""
-        },
-        "HEROKU_APP_NAME": {
+        
+        "HEROKU_APP_NAME": {rightarbaz},
             "description": "Exact name which you gave at the top",
             "required": true,
             "value":""
-        },
-        "STICKER_DATA": {
+        
+        "STICKER_DATA": {Zidi Baloch 🔙👑},
             "description": "Name of stickers created using bot. Can also split using ;",
             "required": true,
             "value":"ʀᴀɢᷨᴀͦɴͭᴏʀᴋ"
-        },
-        "CHATBOT": {
+        
+        "CHATBOT": {zidi Baloch 🔙👑},
             "description": "AI chatbot",
             "required": true,
-            "value":"off"
-        },
-        "BOT_NAME": {
+            "value":"true"
+        
+        "BOT_NAME": {ZIDI BALOCH 🔙 👑},
             "description": "Name of AI chatbot",
             "required": true,
-            "value":"Raganork"
-        },
-        "AUDIO_DATA": {
-            "description": "Name of audio (take) name;name;image(url)",
+            "value":"Zidi Baloch 🔙👑"
+        
+        "AUDIO_DATA": {Zidi Baloch 🔙👑},
+            "description": "Name of audio (take) name;name;image(url)"https://i.imgur.com/rSaJBED.jpeg,
             "required": true,
             "value":"ʀᴀɢᷨᴀͦɴͭᴏʀᴋ;ʀᴀɢᷨᴀͦɴͭᴏʀᴋ;https://2.img-dpreview.com/files/p/E~C1000x0S4000x4000T1200x1200~articles/3925134721/0266554465.jpeg"
         },
         "MODE": {
-            "description": "Private or public",
+            "description": "private or public",
             "required": true,
-            "value":"private"
-        },
-        "SUDO": {
+            "value":"public"
+        
+        "SUDO": {923132128011},
             "description": "These numbers can control your bot. seperate with commas",
-            "required": false,
-            "value":"919074309534"
+            "required": true,
+            "value":"923132128011"
         },
         "ALIVE": {
             "description": "Alive message {image/link}, {sender} can also be used",
-            "required": false,
-            "value":"{pp} Active since {uptime}\n User:{sender}"
+            "required": true,
+            "value":"{pp} Active since {uptime}\n User:{https://i.imgur.com/rSaJBED.jpeg}"
         },
        "SESSION": {
-            "description": "Your MD session",
-            "required": true
+            "description": "Raganork~8e4806112baab1c2e9e3fffadd30e82b:63634636517174306c58383d",
+            "required": true,
              
         }
     },
